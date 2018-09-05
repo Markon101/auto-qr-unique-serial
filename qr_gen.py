@@ -12,7 +12,7 @@ def create_qr_code(data, img_name):
     border=2,
     )
     
-    qr.add_data(data + '\n\nPROPERTY OF DANIEL JONES IF LOST CALL 304-320-1308 or 304-566-9514')
+    qr.add_data(data + '\n\nPROPERTY OF ????')
     qr.make(fit=True)
     img = qr.make_image()
     img.save(img_name + '.png')
